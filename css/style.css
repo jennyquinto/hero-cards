@@ -6,11 +6,30 @@
 body {
     font-family: 'Roboto';
 }
-
-.card {
+.discount-bar{
+    background-color: #1CD1B0;    
+    font-size: 1,2rem;
+    height: 38px;
+    padding: 10px 20px;
+}
+.header{
+    font-size: 40px;
+    font-weight: 400;
+}
+.title{
+    background-color: #00669F;
+    padding: 1rem;
+}
+.section-card{    
+    height: 530px;
+    margin:60px auto;
+    width: 960px;    
+}
+.card {    
+    display: inline-block;    
+    height: 100%;
     width: 300px;
-    max-height: max-content;
-    margin: 0 auto;
+    margin:0 8px;        
 }
 
 .card-bg {
@@ -23,8 +42,7 @@ body {
     padding: 15px;
 }
 .card-content {
-    position: relative;
-    height: 100%;
+    position: relative;    
     padding: 0 15px;
     text-align: center; 
     background-color: #F3F3F3;
@@ -53,4 +71,5 @@ body {
     background-color: #00669F;
     padding: 10px 20px;
     border: 0;
+    margin-bottom: 20px;
 }

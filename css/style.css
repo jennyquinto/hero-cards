@@ -3,54 +3,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto';
 }
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
 
 .card {
+    display: inline-block;
     width: 300px;
-    max-height: max-content;
-    margin: 0 auto;
+    background-color: #F3F3F3;  
+    border-radius: 1rem;
+    font-size: 15px;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 
 .card-bg {
     height: 195px;
     background-image: url('../img/batman-bg.png');
     background-repeat: no-repeat;
+    padding: 1rem;
 }
-.card-bg span {
-    display: inline-block;
-    padding: 15px;
+.card-bg.harley {
+    background-image: url('../img/harley-bg.png');
 }
+
+.card-bg i {
+    font-size: 2rem;
+    color: #CC2424;
+}
+
 .card-content {
     position: relative;
-    height: 100%;
-    padding: 0 15px;
-    text-align: center; 
-    background-color: #F3F3F3;
-    padding-top: 3rem;
-    border-radius: 0 0 15px 15px;
+    text-align: center;
+    padding: 4rem 1.5rem 0;
 }
 
-.card-content img {
+.card-img {
     position: absolute;
-   inset: -20% 0 0 30%;
-    border-radius: 100vh;
-}
-.card-content  h3 {
-    font-size: 2rem;
-    padding-top: 2rem;
-
-}
-.card-content  p {
-    text-align: left;
-    font-size: 1rem;
-    margin: 15px 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -60px;
+    border-radius: 50%;
 }
 
-.card-content button {
+.card-content h3 {
+    font-size: 2em;
+}
+
+.card p {
+    font-family: 16px;
+    color: #333;
+    text-align: start;
+    margin-block: 1rem;
+}
+
+.card button {
+    width: 128px;
     color: #F3F3F3;
     background-color: #00669F;
-    padding: 10px 20px;
-    border: 0;
+    padding: 16px 0;
+    border: none;
+    font-size: inherit;
 }

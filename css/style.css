@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+}
+
+.card {
+    width: 300px;
+    max-height: max-content;
+    margin: 0 auto;
+}
+
+.card-bg {
+    height: 195px;
+    background-image: url('../img/batman-bg.png');
+    background-repeat: no-repeat;
+}
+.card-bg span {
+    display: inline-block;
+    padding: 15px;
+}
+.card-content {
+    position: relative;
+    height: 100%;
+    padding: 0 15px;
+    text-align: center; 
+    background-color: #F3F3F3;
+    padding-top: 3rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-content img {
+    position: absolute;
+   inset: -20% 0 0 30%;
+    border-radius: 100vh;
+}
+.card-content  h3 {
+    font-size: 2rem;
+    padding-top: 2rem;
+
+}
+.card-content  p {
+    text-align: left;
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+.card-content button {
+    color: #F3F3F3;
+    background-color: #00669F;
+    padding: 10px 20px;
+    border: 0;
+}

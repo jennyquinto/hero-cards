@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+}
+.discount-bar{
+    background-color: #1CD1B0;    
+    font-size: 1.2rem;
+    height: 38px;
+    padding: 10px 20px;
+}
+/* .header{
+    font-size: 28px;    
+} */
+header{
+    margin-bottom: 150px;
+}
+.title{
+    background-color: #00669F;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 1rem;
+}
+.section-cards{    
+    height: 530px;
+    margin:60px auto;
+    width: 960px;    
+}
+.card {    
+    /* border-bottom: 1px solid darkgray; */
+    background-color: #F3F3F3;
+    box-shadow: 0px 0.4rem 0.5rem darkgray;
+    display: inline-block;    
+    /* height: 100%; */
+    height: 529px;
+    width: 300px;
+    margin:0 8px;        
+}
+
+.card-bg {
+    height: 195px;
+    background-image: url('../img/batman-bg.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+.harley-card{
+    height: 195px;
+    background-image: url('../img/harley-bg.png');
+    background-repeat: no-repeat;
+}
+.card-bg img{
+    display: inline-block;
+    width: 30px;
+    height: auto;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.card-content {
+    position: relative;    
+    padding: 0 15px;
+    text-align: center; 
+    background-color: #F3F3F3;
+    padding-top: 3rem;
+    /* border-radius: 0 0 15px 15px; */
+}
+
+.card-content img {
+    position: absolute;
+    /* inset: -20% 0 0 30%; */
+    border-radius: 50%;
+    top: -25%;
+    left: 30%;
+}
+.card-content  h3 {
+    font-size: 2rem;
+    padding-top: 2rem;
+
+}
+.card-content  p {        
+    margin: 15px 0;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.card-content button {
+    color: #F3F3F3;
+    background-color: #00669F;    
+    font-size: 15px;
+    height: 49px;
+    padding: 10px 20px;
+    border: 0;
+    margin-bottom: 30px 0px;
+    width:129px;
+}
+footer{
+    background-color: #00669F;
+    color:white; 
+    height: 51px;
+    position: relative;
+}
+footer p{
+    margin-top:150px;
+    padding:20px;            
+}

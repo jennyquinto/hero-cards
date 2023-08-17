@@ -29,7 +29,7 @@ body {
     display: inline-block;    
     height: 100%;
     width: 300px;
-    margin:0 8px;        
+    margin: 0 8px;        
 }
 
 .card-bg {
@@ -52,7 +52,7 @@ body {
 
 .card-content img {
     position: absolute;
-   inset: -20% 0 0 30%;
+    inset: -20% 0 0 30%;
     border-radius: 100vh;
 }
 .card-content  h3 {
